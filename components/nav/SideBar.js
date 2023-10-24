@@ -1,9 +1,15 @@
 import { useEffect, useState } from "react";
 import styles from "./sidebar.module.scss";
 import { motion } from "framer-motion";
+import { useScroll } from "framer-motion"
+
+
 
 export const SideBar = () => {
   const [selected, setSelected] = useState("");
+
+  const { scrollYProgress } = useScroll();
+
 
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
@@ -29,15 +35,15 @@ export const SideBar = () => {
     <motion.nav
       initial={{ x: -70 }}
       animate={{ x: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.35 }}
       className={styles.sideBar}
     >
       <span className={styles.logo}>
-        B<span>.</span>
+        AE<span>.</span>
       </span>
       <motion.a
-        initial={{ x: -70 }}
-        animate={{ x: 0 }}
+        initial={{ y: -70 }}
+        animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
         href="#about"
         onClick={() => {
@@ -48,8 +54,8 @@ export const SideBar = () => {
         About
       </motion.a>
       <motion.a
-        initial={{ x: -70 }}
-        animate={{ x: 0 }}
+        initial={{ y: -90 }}
+        animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         href="#projects"
         onClick={() => setSelected("projects")}
@@ -58,8 +64,8 @@ export const SideBar = () => {
         Projects
       </motion.a>
       <motion.a
-        initial={{ x: -70 }}
-        animate={{ x: 0 }}
+        initial={{ y: -110 }}
+        animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         href="#experience"
         onClick={() => setSelected("experience")}
@@ -68,8 +74,8 @@ export const SideBar = () => {
         Exp.
       </motion.a>
       <motion.a
-        initial={{ x: -70 }}
-        animate={{ x: 0 }}
+        initial={{ y: -130 }}
+        animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}
         href="#contact"
         onClick={() => setSelected("contact")}
@@ -77,6 +83,7 @@ export const SideBar = () => {
       >
         Contact
       </motion.a>
+      <motion.div style={{ scaleX: scrollYProgress }} />  
     </motion.nav>
   );
 };

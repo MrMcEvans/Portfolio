@@ -12,8 +12,8 @@ export const MyLinks = () => {
   return (
     <div className={styles.links}>
       <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ x: 2000, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.0 }}
       >
         <Link href="https://www.linkedin.com" target="_blank" rel="nofollow">
@@ -22,34 +22,26 @@ export const MyLinks = () => {
       </motion.span>
 
       <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ x: 2000, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <Link href="https://www.github.com" target="_blank" rel="nofollow">
           <AiFillGithub size="2.4rem" />
         </Link>
       </motion.span>
-
       <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
+      variants={{
+        hidden: { opacity: 0, y: 30 },
+        visible: { opacity: 1, y: 0 },
+      }}
+        initial="hidden"
+        animate="visible"
+        transition={{ duration: 0.5, delay: .4 }}
       >
-        <Link href="https://www.twitter.com" target="_blank" rel="nofollow">
-          <AiFillTwitterCircle size="2.4rem" />
-        </Link>
+        <div className="name">Andrew Evans</div>
       </motion.span>
 
-      <motion.span
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-      >
-        <Link href="https://www.codepen.io" target="_blank" rel="nofollow">
-          <AiFillCodepenCircle size="2.4rem" />
-        </Link>
-      </motion.span>
     </div>
   );
 };

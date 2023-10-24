@@ -22,8 +22,8 @@ export const Reveal = ({ children, width = "fit-content" }) => {
     <div ref={ref} style={{ position: "relative", width, overflow: "hidden" }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, x: 465 },
-          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, y: 65 },
+          visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate={mainControls}
@@ -40,14 +40,14 @@ export const Reveal = ({ children, width = "fit-content" }) => {
         animate={slideControls}
         transition={{ duration: 0.5, ease: "easeIn" }}
         style={{
-          position: "absolute",
-          top: 4,
-          bottom: 4,
-          left: 0,
-          right: 0,
-          background: "var(--brand)",
-          zIndex: 20,
-          borderRadius: 10,
+          // position: "absolute",
+          // top: 4,
+          // bottom: 4,
+          // left: 0,
+          // right: 0,
+          // background: "var(--brand)",
+          // zIndex: 20,
+          // borderRadius: 10,
         }}
       />
     </div>

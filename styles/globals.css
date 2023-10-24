@@ -1,20 +1,20 @@
 :root {
   font-size: 62.5%;
 
-  --background: rgb(17, 17, 17);
-  --bg-opaque: rgb(17, 17, 17, 0.25);
+  --background: rgb(55, 54, 54);
+  --bg-opaque: rgba(0, 0, 0, 0.25);
   --background-light: rgb(35, 35, 35);
   --background-dark: rgb(8, 8, 8);
 
   --text: rgb(235, 236, 243);
   --brand: rgb(255, 10, 10);
 
-  --text-xs: 1.6rem;
-  --text-sm: 1.8rem;
-  --text-md: 2.2rem;
-  --text-lg: 3.6rem;
-  --text-xl: 5.6rem;
-  --text-2xl: 9.6rem;
+  --text-xs: 1.4rem;
+  --text-sm: 1.6rem;
+  --text-md: 2.0rem;
+  --text-lg: 3.4rem;
+  --text-xl: 5.4rem;
+  --text-2xl: 9.2rem;
 }
 
 * {
@@ -53,10 +53,37 @@ a {
   padding: 9.6rem;
   overflow: hidden;
 }
+.opening{
+  position: relative;
+  z-index: 10;
+  max-width: 1150px;
+  margin: auto;
+  padding: 9.6rem;
+  overflow: hidden;
+  height: 300px;
+  background:
+  linear-gradient(to right, rgb(255, 0, 0) 4px, transparent 4px) 5% 10%,
+  linear-gradient(to right, rgb(255, 0, 0) 4px, transparent 4px) 5% 100%,
+  linear-gradient(to left, rgb(255, 0, 0) 4px, transparent 4px) 57% 10%,
+  linear-gradient(to left, rgb(255, 0, 0) 4px, transparent 4px) 57% 100%,
+  linear-gradient(to bottom, rgb(255, 0, 0) 4px, transparent 4px) 5% 10%,
+  linear-gradient(to bottom, rgb(255, 0, 0) 4px, transparent 4px) 57% 10%,
+  linear-gradient(to top, rgb(255, 0, 0) 4px, transparent 4px) 5% 100%,
+  linear-gradient(to top, rgb(249, 0, 0) 4px, transparent 4px) 57% 100%;
+
+background-repeat: no-repeat;
+background-size: 20px 20px;;
+}
 
 @media (max-width: 768px) {
   .section-wrapper {
     padding: 7.2rem 2.4rem;
+  }
+  .opening{
+    color: rgb(187, 186, 186);
+    font-size: 12px;
+    height: 350px;
+    background: none;
   }
 }
 
@@ -66,3 +93,10 @@ a {
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
 }
+.name{
+  color: rgb(187, 186, 186);
+  font-size: var(--text-md);
+  
+}
+
+
