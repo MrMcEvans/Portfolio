@@ -64,16 +64,6 @@ export const SideBar = () => {
         Projects
       </motion.a>
       <motion.a
-        initial={{ y: -110 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        href="#experience"
-        onClick={() => setSelected("experience")}
-        className={selected === "experience" ? styles.selected : ""}
-      >
-        Exp.
-      </motion.a>
-      <motion.a
         initial={{ y: -130 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.4 }}

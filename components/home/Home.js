@@ -5,6 +5,8 @@ import { Heading } from "../nav/Heading";
 import { Header } from "./header/Header";
 import { OpenPage } from "./OpenPage/opening";
 import { About } from "./about/About";
+import { Projects } from "./projects/Projects";
+import { Contact } from "./contact/Contact";
 
 
 export const Home = () => {
@@ -13,11 +15,13 @@ export const Home = () => {
       <div className={styles.home}>
         
         <SideBar />
-        <main>
+        <main className="main">
           <Heading />
           <OpenPage />
           <Header />
           <About />
+          <Projects />
+          <Contact />
           <div
             style={{
               height: "200px",

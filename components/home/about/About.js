@@ -28,17 +28,19 @@ export const About = () => {
             </Reveal>
             <Reveal>
               <p className={styles.aboutText}>
-                Outside of work, I still love to paint. Any given Sunday
-                you&apos;ll find me scribbling some happy clouds with my son ☁️ I
-                even teach courses online if you&apos;re looking to learn!
+                Outside of work I&apos;m a huge fan of the outdoors. I love
+                hiking, biking, and camping. I also love my two amazing dogs.
+                Aside from touching grass I am a huge fan of video games and
+                movies. I love to play games with my friends and I love to
+                watch movies with my incredible wife.
               </p>
             </Reveal>
             <Reveal>
               <p className={styles.aboutText}>
                 I&apos;m passively looking for new positions where I can merge my
-                love for code with my love for the canvas. If you think
-                you&apos;ve got an opening that I might like, let&apos;s connect
-                🔗
+                love for code with my work life. Once again THANK YOU for taking
+                the time to review my portfolio. I hope you have a great day and
+                would love to talk to you soon!
               </p>
             </Reveal>
             <Reveal>
