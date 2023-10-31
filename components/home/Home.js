@@ -3,7 +3,7 @@ import { SideBar } from "../nav/SideBar";
 import styles from "./home.module.scss";
 import { Heading } from "../nav/Heading";
 import { Header } from "./header/Header";
-import { OpenPage } from "./OpenPage/opening";
+import { OpenPage } from "./openPage/opening";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Contact } from "./contact/Contact";
