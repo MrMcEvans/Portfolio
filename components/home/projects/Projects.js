@@ -173,7 +173,7 @@ const projects = [
           Those answers are taken and used to create a simple svg logo that will represent the answers provided and will be saved to the user's computer.
         </p>
         <p>
-          The source code also went through complete jast testing to ensure the code is working properly.
+          The source code also went through complete jest testing to ensure the code is working properly.
         </p>
       </>
     ),
