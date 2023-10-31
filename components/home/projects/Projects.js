@@ -28,7 +28,7 @@ const collabProject = [
     title: "LOOM",
     imgSrc: "project-imgs/Loom.png",
     code: "https://github.com/julianlosak/Loom",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    projectLink: "https://loom2-a5eb78e7d369.herokuapp.com",
     tech: ["Sequalize", "JavaScript", "Maria_Db", "FastAPI"],
     description:
       "A text adventure game that lets the users create their own branches of the story.",
@@ -110,10 +110,10 @@ const collabProject = [
 const projects = [
   {
     title: "Google Books",
-    imgSrc: "project-imgs/GoogleSearch.png",
+    imgSrc: "project-imgs/Capture2.JPG",
     code: "https://github.com/MrMcEvans/GoogleBooks",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Sequalize", "JavaScript", "Maria_Db", "FastAPI"],
+    projectLink: "https://googlebooks13-0e8ae4e0af6e.herokuapp.com",
+    tech: ["Sequalize", "JavaScript", "Mongoose", "React", "Node", "Express"],
     description:
       "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
     modalContent: (
@@ -138,7 +138,7 @@ const projects = [
     title: "E_Commerce Database",
     imgSrc: "project-imgs/EcommerceDB.png",
     code: "https://github.com/MrMcEvans/eCommerce-Database",
-    projectLink: "N/A",
+    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     tech: ["Node", "Express", "MongoDB"],
     description:
       "An eccomerce database that allows the user to view, add, update, and delete products.",
@@ -158,9 +158,9 @@ const projects = [
   },
   {
     title: "User Generated Logo",
-    imgSrc: "project-imgs/example-project.jpg",
+    imgSrc: "project-imgs/meme.png",
     code: "https://github.com/MrMcEvans/User_input_logo",
-    projectLink: "N/A",
+    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     tech: ["Inquirer", "Jast", "JS"],
     description:
       "User generated logo is a backend inquirer app that allows the user to create a logo based on their input.",

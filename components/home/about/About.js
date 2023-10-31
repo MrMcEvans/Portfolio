@@ -13,7 +13,7 @@ export const About = () => {
             <Reveal>
               <p className={`${styles.aboutText} `}>
                 Hello! I&apos;m Andrew, a web developer based in Texas. I&apos;m a
-                former restraunt worker that has always had the passion for coding.
+                former restaurant worker that has always had the passion for coding.
                 I&apos;ve been working as a developer for around 6 months now and
                 I&apos;m loving every minute of it.
               </p>
