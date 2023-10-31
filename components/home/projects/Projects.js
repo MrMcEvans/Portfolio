@@ -60,53 +60,47 @@ const collabProject = [
     imgSrc: "project-imgs/GitFit.png",
     code: "https://github.com/akecs512/Git-Fit-Fitness-Tracker",
     projectLink: "https://enigmatic-garden-97881-5a06f2d72820.herokuapp.com/login",
-    tech: ["Node", "Express", "React", "GraphQl", "Redis"],
+    tech: ["Node", "Express", "React", "GraphQl", "Mongoose, Tailwind CSS"],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "Introducuing GitFit, a fitness tracker that allows you to track your workouts and your progress.",
     modalContent: (
       <>
         <p>
-
+            This project was built with a team of 5 developers. Git-Fit was made with the thought of the user in mind.
         </p>
         <p>
-
+            Git-Fit allows the user to create a profile and track their workouts. The user can also view their progress on a graph that calculates which field of exercise they have done the most.
         </p>
         <p>
-
+          This database allows for creation of profiles, workouts, and exercises. The database is built with MongoDB and Mongoose.
         </p>
         <p>
-
+          The frontend is built with React and Tailwind CSS. The backend is built with Node, Express, and GraphQl.  
         </p>
         <p>
-
-        </p>
-        <p>
-
+          Future development I would like to pursue is adding a social aspect to the app where users can share their progress with other users and compete with each other.
         </p>
       </>
     ),
   },
   {
     title: "TicketBooth",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["NextJS", "Java", "Spring", "AWS Aurora"],
+    imgSrc: "project-imgs/vader.jpeg",
+    code: "https://github.com/TheIanAnderson/Movie-Trailer-Search",
+    projectLink: "https://theiananderson.github.io/Movie-Trailer-Search/",
+    tech: ["YoutubeAPI", "imdb api", "jQuery", "Materialize CSS"],
     description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+      "This collaborative project was built with a team of 5 developers. This project was to show off our skills with api and fetch calls.",
     modalContent: (
       <>
         <p>
-
+            This website allows the user to search for a movie and watch the trailer, view the case, and see all awards the movie was nominated for.
         </p>
         <p>
-
+            This project was using calls from the imdb and youtube api to get the information needed based on queries that did not bring unusable data.
         </p>
         <p>
-
-        </p>
-        <p>
-
+          The JS files were also built in jQuery to show our skills with the framework.
         </p>
       </>
     ),
@@ -142,98 +136,63 @@ const projects = [
   },
   {
     title: "E_Commerce Database",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Node", "Express", "Postgres", "Kafka", "Redis"],
+    imgSrc: "project-imgs/EcommerceDB.png",
+    code: "https://github.com/MrMcEvans/eCommerce-Database",
+    projectLink: "N/A",
+    tech: ["Node", "Express", "MongoDB"],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "An eccomerce database that allows the user to view, add, update, and delete products.",
     modalContent: (
       <>
         <p>
-          The Canvas Club is a social community for painters to connect with
-          others in their community.
+          This database is a framework that allows users to keep track of their inventory.
         </p>
         <p>
-          I work primarily on the backend, a collection of Node & Express
-          microservices. Data is stored primarily in Postgres & cached in Redis.
+          The user can view all products, add a product, update a product, and delete a product.
         </p>
         <p>
-          The team in total consists of 5 developers. This is a passion project
-          for all of us.
-        </p>
-        <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          As well as assign products to different departments or tags to keep organized.
         </p>
       </>
     ),
   },
   {
-    title: "BrushWire",
+    title: "User Generated Logo",
     imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["NextJS", "Java", "Spring", "AWS Aurora"],
+    code: "https://github.com/MrMcEvans/User_input_logo",
+    projectLink: "N/A",
+    tech: ["Inquirer", "Jast", "JS"],
     description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+      "User generated logo is a backend inquirer app that allows the user to create a logo based on their input.",
     modalContent: (
       <>
         <p>
-          Brush wire is essentially Zapier but for paint. Built with a team of
-          four college friends and scaled to {">"} 1 billion requests per day.
-          This was a fun one.
+          This application asks the user questions about how they would wants their logo to looks.
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn&apos;t mean anything, be
-          creative {":)"}
+          Those answers are taken and used to create a simple svg logo that will represent the answers provided and will be saved to the user's computer.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          The source code also went through complete jast testing to ensure the code is working properly.
         </p>
       </>
     ),
   },
   {
     title: "Old Portfolio",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Python", "FastAPI", "SQLAlchemy"],
+    imgSrc: "project-imgs/Capture.jpg",
+    code: "https://github.com/MrMcEvans/Challeng02",
+    projectLink: "https://mrmcevans.github.io/Challeng02/",
+    tech: ["HTML", "CSS"],
     description:
-      "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
+      "My initiaL portfolio that I built in my bootcamp. I have since updated it to be more modern as you have noticed Lol.",
     modalContent: (
       <>
-        <p>Alright, you got me. I&apos;m all out of paint references.</p>
+        <p>My old portfolio was made just over six months ago using basic coding frameworks like html and css</p>
         <p>
-          Point is, use this space to explain a bit further WHAT this project
-          is, as well as what YOU contributed to it.
+          I have included this project to show how far I have come in such a short time and how I can better my knowlegde with you.
         </p>
-        <p>You get the idea. Now more lorem {":)"}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
-        </p>
+        <p>You get the idea.</p>
       </>
     ),
   },
