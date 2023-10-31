@@ -34,7 +34,7 @@ export const SideBar = () => {
   return (
     <motion.nav
       initial={{ x: -70 }}
-      animate={{ x: 0 }}
+      animate={{ x: -10 }}
       transition={{ duration: 0.35 }}
       className={styles.sideBar}
     >

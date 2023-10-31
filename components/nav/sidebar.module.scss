@@ -1,7 +1,7 @@
 .sideBar {
   background: var(--background-dark);
 
-  height: 100vh;
+  height: 110vh;
 
   position: sticky;
   top: 0px;
@@ -77,4 +77,9 @@
 
 .sideBar::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar{
+    transform: scale(50%);}
 }
