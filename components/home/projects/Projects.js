@@ -29,7 +29,7 @@ const collabProject = [
     imgSrc: "project-imgs/Loom.png",
     code: "https://github.com/julianlosak/Loom",
     projectLink: "https://loom2-a5eb78e7d369.herokuapp.com",
-    tech: ["Sequalize", "JavaScript", "Maria_Db", "FastAPI"],
+    tech: ["Sequalize", "JavaScript", "Maria_Db", "BadWords"],
     description:
       "A text adventure game that lets the users create their own branches of the story.",
     modalContent: (
@@ -60,7 +60,7 @@ const collabProject = [
     imgSrc: "project-imgs/GitFit.png",
     code: "https://github.com/akecs512/Git-Fit-Fitness-Tracker",
     projectLink: "https://enigmatic-garden-97881-5a06f2d72820.herokuapp.com/login",
-    tech: ["Node", "Express", "React", "GraphQl", "Mongoose, Tailwind CSS"],
+    tech: ["Node", "Express", "React", "GraphQl", "Mongoose", "Tailwind CSS"],
     description:
       "Introducuing GitFit, a fitness tracker that allows you to track your workouts and your progress.",
     modalContent: (
