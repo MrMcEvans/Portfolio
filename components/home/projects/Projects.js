@@ -138,7 +138,7 @@ const projects = [
     title: "E_Commerce Database",
     imgSrc: "project-imgs/EcommerceDB.png",
     code: "https://github.com/MrMcEvans/eCommerce-Database",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    projectLink: "",
     tech: ["Node", "Express", "MongoDB"],
     description:
       "An eccomerce database that allows the user to view, add, update, and delete products.",
@@ -160,7 +160,7 @@ const projects = [
     title: "User Generated Logo",
     imgSrc: "project-imgs/meme.png",
     code: "https://github.com/MrMcEvans/Logo_Creator/tree/main/CHALLENGES/Challenge08",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    projectLink: "",
     tech: ["Inquirer", "Jast", "JS"],
     description:
       "User generated logo is a backend inquirer app that allows the user to create a logo based on their input.",
