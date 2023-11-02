@@ -159,7 +159,7 @@ const projects = [
   {
     title: "User Generated Logo",
     imgSrc: "project-imgs/meme.png",
-    code: "https://github.com/MrMcEvans/User_input_logo",
+    code: "https://github.com/MrMcEvans/Logo_Creator/tree/main/CHALLENGES/Challenge08",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     tech: ["Inquirer", "Jast", "JS"],
     description:
