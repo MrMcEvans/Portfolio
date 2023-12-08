@@ -115,7 +115,7 @@ const projects = [
     projectLink: "https://googlebooks13-0e8ae4e0af6e.herokuapp.com",
     tech: ["Sequalize", "JavaScript", "Mongoose", "React", "Node", "Express"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      "Ever wanted to keep track of books you want to read? This is the app for you. Google Books allows you to search for books and save them to your list.",
     modalContent: (
       <>
         <p>
