@@ -185,7 +185,7 @@ const projects = [
     projectLink: "https://mrmcevans.github.io/Challeng02/",
     tech: ["HTML", "CSS"],
     description:
-      "My initiaL portfolio that I built in my bootcamp. I have since updated it to be more modern as you have noticed Lol.",
+      "My initial portfolio that I built in my bootcamp. I have since updated it to be more modern as you have noticed Lol.",
     modalContent: (
       <>
         <p>My old portfolio was made just over six months ago using basic coding frameworks like html and css</p>
@@ -193,6 +193,26 @@ const projects = [
           I have included this project to show how far I have come in such a short time and how I can better my knowlegde with you.
         </p>
         <p>You get the idea.</p>
+      </>
+    ),
+  },
+  {
+    title: "This Page",
+    imgSrc: "project-imgs/Portfolio.png",
+    code: "https://github.com/MrMcEvans/Portfolio",
+    projectLink: "#",
+    tech: ["React", "nextJs", "SCSS", "Framer-Motion"],
+    description:
+      "My digital showcase of my skills as a web developer. This page has been a joy to create and I hope you enjoy it too!",
+    modalContent: (
+      <>
+        <p>This page is my showcase of what I have achieved in my process of web development</p>
+        <p>
+          This application was made with my heart in development and design.
+        </p>
+        <p>Future development will greatly improve the technologies of this portfolio as I show off
+          my skills as a backend developer as well
+        </p>
       </>
     ),
   },
