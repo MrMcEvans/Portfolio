@@ -70,7 +70,7 @@ export const Project = ({
               </Link>
 
               <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
+                <AiOutlineExport size="2.8rem" />Live Project
               </Link>
             </div>
           </Reveal>
