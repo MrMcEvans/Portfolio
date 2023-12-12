@@ -157,6 +157,28 @@ const projects = [
     ),
   },
   {
+    title: "Employee SQL Database",
+    imgSrc: "project-imgs/Employee_db.png",
+    code: "https://github.com/MrMcEvans/Employee_DataBase?tab=readme-ov-file",
+    projectLink: "https://www.youtube.com/watch?v=xMCi9YksA58",
+    tech: ["Node", "Inquirer", "Sequalize", "MySQL"],
+    description:
+      "A database that allows the user to view, add, update, and delete employees, roles, and departments.",
+    modalContent: (
+      <>
+        <p>
+          This database is a framework that allows users to keep track of their employees.
+        </p>
+        <p>
+          The user can view all employees, add an employee, update an employee, and delete an employee.
+        </p>
+        <p>
+          This application also allows the user to view all roles and departments, add a role or department, update a role or department, delete a role or department, and update salaries.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "User Generated Logo",
     imgSrc: "project-imgs/meme.png",
     code: "https://github.com/MrMcEvans/Logo_Creator/tree/main/CHALLENGES/Challenge08",
