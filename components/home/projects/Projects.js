@@ -138,7 +138,7 @@ const projects = [
     title: "E_Commerce Database",
     imgSrc: "project-imgs/EcommerceDB.png",
     code: "https://github.com/MrMcEvans/eCommerce-Database",
-    projectLink: "",
+    projectLink: "https://www.youtube.com/watch?v=m2GJ_BeAvoE",
     tech: ["Node", "Express", "MongoDB"],
     description:
       "An eccomerce database that allows the user to view, add, update, and delete products.",
