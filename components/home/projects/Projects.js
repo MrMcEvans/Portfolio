@@ -12,18 +12,14 @@ export const Projects = () => {
           return <Project key={project.title} {...project} />;
         })}
       </div>
-      <SectionHeader title="Collaborative Projects" dir="r" />
+      
 
-      <div className={styles.projects}>
-        {collabProject.map((collabProject) => {
-          return <Project key={collabProject.title} {...collabProject} />;
-        })}
-      </div>
+
     </section>
   );
 };
 
-const collabProject = [
+const projects = [
   {
     title: "LOOM",
     imgSrc: "project-imgs/Loom.png",
@@ -105,9 +101,9 @@ const collabProject = [
       </>
     ),
   },
-];
 
-const projects = [
+
+
   {
     title: "Google Books",
     imgSrc: "project-imgs/Capture2.JPG",

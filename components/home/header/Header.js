@@ -17,6 +17,12 @@ export const Header = () => {
           <h2 className={styles.subTitle}>
             I&apos;m a <span>Full Stack Developer</span>
           </h2>
+          
+          <h2 className={styles.subTitle}>
+            <span>React.js</span> | <span>Node.js</span> | <span>Next.js</span> | <span>Express.js</span> | <span>Sequelize</span> | <span>GraphQL</span> | <span>MongoDB</span> | <span>MySQL</span> | <span>JavaScript</span> | <span>Git</span> | <span>GitHub</span> | 
+
+            
+          </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
