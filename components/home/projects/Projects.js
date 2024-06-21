@@ -80,6 +80,31 @@ const projects = [
     ),
   },
   {
+    title: "Select Materials (Work in Progress)",
+    imgSrc: "project-imgs/SelectMaterialsScreenshot.png",
+    code: "https://github.com/MrMcEvans/Select_Materials",
+    projectLink: "https://master--selectmaterialstx.netlify.app",
+    tech: ["React, Bootstrap, Node, Express"],
+    description:
+      "SEO optimized site for building materials business in Port Arthur, TX.",
+    modalContent: (
+      <>
+        <p>
+        The site is built with a focus on SEO optimization to increase visibility and drive more traffic.
+         It's designed to rank well in search engines for building materials businesses in Port Arthur, TX.
+        </p>
+        <p>
+        The site is built with React and Bootstrap.
+        </p>
+        <p>
+        The site is hosted on Netlify, ensuring fast load times and high availability. It uses MariaDB and Sequelize for robust and efficient data handling.
+        </p>
+        <p>
+        </p>
+      </>
+    ),
+  },
+  {
     title: "TicketBooth",
     imgSrc: "project-imgs/vader.jpeg",
     code: "https://github.com/TheIanAnderson/Movie-Trailer-Search",
