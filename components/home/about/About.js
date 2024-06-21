@@ -14,7 +14,7 @@ export const About = () => {
               <p className={`${styles.aboutText} `}>
                 Hello! I&apos;m Andrew, a web developer based in Texas. I&apos;m a
                 former restaurant worker that has always had the passion for coding.
-                I&apos;ve been working as a developer for around 6 months now and
+                I&apos;ve been working as a developer for around 2 years now and
                 I&apos;m loving every minute of it.
               </p>
             </Reveal>
