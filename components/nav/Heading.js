@@ -8,7 +8,7 @@ export const Heading = () => {
     <header className={styles.heading}>
       <MyLinks />
       <Reveal>
-      <OutlineButton onClick={() => window.open("./Resume.pdf")}>
+      <OutlineButton onClick={() => window.open("./updated_resume_2024.pdf")}>
         View Resume
       </OutlineButton>
       <OutlineButton onClick={() => document.getElementById("contact")?.scrollIntoView()}>
