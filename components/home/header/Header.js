@@ -33,7 +33,7 @@ export const Header = () => {
         </Reveal>
         <Reveal>
       <Image
-        src="project-imgs\Port.jpg"
+        src="/Port.jpg"
         width={300}
         height={400}
         alt="Picture of the author"
