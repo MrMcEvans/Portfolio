@@ -17,7 +17,6 @@ export const Home = () => {
         <SideBar />
         <main className="main">
           <Heading />
-          <OpenPage />
           <Header />
           <About />
           <Projects />

@@ -12,35 +12,37 @@ export const About = () => {
           <div>
             <Reveal>
               <p className={`${styles.aboutText} `}>
-                Hello! I&apos;m Andrew, a web developer based in Texas. I&apos;m a
-                former restaurant worker that has always had the passion for coding.
-                I&apos;ve been working as a developer for around 2 years now and
-                I&apos;m loving every minute of it.
+                Hi, I’m Andrew — a Texas-based web developer with a non-traditional path into tech and a deep passion for building meaningful digital experiences.
               </p>
             </Reveal>
             <Reveal>
               <p className={styles.aboutText}>
-                I&apos;m currently trying to find a job in the tech world and
-                am looking forward to bringing my skills to a dedicated team.
-                 I&apos;m working with React, Next.js, and GraphQL. I&apos;m also
-                quite talented with Node.js and am currently learning typeScript and Python. 
+                I transitioned from the restaurant industry into software development and have been working professionally as a developer for the past two years. That background gave me a strong foundation in communication, adaptability, and performing under pressure — skills I now apply to building reliable, scalable applications. 
               </p>
             </Reveal>
             <Reveal>
               <p className={styles.aboutText}>
-                Outside of work I&apos;m a huge fan of the outdoors. I love
-                hiking, biking, and camping. I also love my two amazing dogs.
-                Aside from touching grass I am a huge fan of video games and
-                movies. I love to play games with my friends and I love to
-                watch movies with my incredible wife.
+                My primary stack includes React, Next.js, GraphQL, and Node.js, with hands-on experience building full-stack applications and production-ready web platforms. I’m currently expanding my expertise in TypeScript and Python to deepen my backend and systems-level capabilities. I enjoy working across the stack — from crafting intuitive front-end experiences to designing structured APIs and data flows.
               </p>
             </Reveal>
             <Reveal>
               <p className={styles.aboutText}>
-                I&apos;m passively looking for new positions where I can merge my
-                love for code with my work life. Once again THANK YOU for taking
-                the time to review my portfolio. I hope you have a great day and
-                would love to talk to you soon!
+                I’m especially interested in joining a collaborative team where I can contribute to clean architecture, thoughtful UX, and maintainable codebases while continuing to grow as an engineer.
+              </p>
+            </Reveal>
+            <Reveal>
+              <p className={styles.aboutText}>
+                Outside of development, I’m usually outdoors hiking, biking, or camping. I’m also a big fan of gaming and movies — whether that’s playing online with friends or watching something great with my wife. Balance matters to me, and I bring that same intentionality to my work.
+              </p>
+            </Reveal>
+            <Reveal>
+              <p className={styles.aboutText}>
+                I’m currently open to new opportunities and would love to connect if you think I’d be a strong fit for your team.
+              </p>
+            </Reveal>
+            <Reveal>
+              <p className={styles.aboutText}>
+                Thanks for taking the time to review my portfolio.
               </p>
             </Reveal>
             <Reveal>

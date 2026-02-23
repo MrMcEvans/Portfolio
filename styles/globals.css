@@ -40,7 +40,6 @@ body {
   background: var(--background);
 }
 .main{
-  border: 5px solid red;
   border-radius: 5px;
   width: 100%;
 }
@@ -82,21 +81,23 @@ background-size: 20px 20px;;
 
 @media (max-width: 800px) {
   .section-wrapper {
-    padding: 7.2rem 2.4rem;
-    transform: scale(90%);
-
-  }
-  .opening{
-    color: rgb(187, 186, 186);
-    font-size: 12px;
-    height: 350px;
-    background: none;
+    padding: 0 .4rem;
+    transform: scale(80%);
+    top: -1.5%;
   }
   .main{
     border: none;
     position: relative;
     right: 30px;
-
+  }
+  #about{
+    top: -5.5%;
+  }
+  #projects{
+    top: -12%;
+  }
+  #contact{
+    top: -17%;
   }
 }
 
@@ -110,6 +111,9 @@ background-size: 20px 20px;;
   color: rgb(187, 186, 186);
   font-size: var(--text-md);
   
+}
+.projectList li{
+  margin-left: 4%;
 }
 
 

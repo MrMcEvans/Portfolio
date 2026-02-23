@@ -21,86 +21,125 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "LOOM",
-    imgSrc: "project-imgs/Loom.png",
-    code: "https://github.com/julianlosak/Loom",
-    projectLink: "https://loom2-a5eb78e7d369.herokuapp.com",
-    tech: ["Sequalize", "JavaScript", "Maria_Db", "BadWords"],
+    title: "Just USA Jeans",
+    imgSrc: "project-imgs/JustUSAJeans.webp",
+    code: "",
+    projectLink: "https://justusajeans.com/",
+    tech: ["Shoppify", "JavaScript"],
     description:
-      "A text adventure game that lets the users create their own branches of the story.",
+      "Brand & E-Commerce",
     modalContent: (
       <>
         <p>
-          A text adventure game that lets the users create their own branches of
-          the story. The game is built with a Handlebars frontend and a Node backend.
+          I designed and developed the complete e-commerce experience for Just USA Jeans, a California-based women’s denim brand with over 30 years of industry heritage. The project involved building a conversion-focused online storefront that balances strong brand storytelling with streamlined product merchandising.
         </p>
         <p>
-        The database is built with MariaDB and Sequelize. The game is hosted on Heroku.
+        The site features structured product collections organized by fit (wide-leg, straight, skinny, flare, bootcut), intuitive navigation, responsive design, and a seamless shopping cart experience. I implemented a scalable layout to support new arrivals, best-seller highlights, seasonal lookbooks, and promotional campaigns while maintaining performance and usability across devices.
         </p>
         <p>
-        The team in total consists of 5 developers. This is a passion project
-          for all of us. I worked on the backend and database and handled the initial story.
+        Beyond front-end development, I ensured the brand’s messaging around craftsmanship, comfort, and sustainability was clearly integrated into the site architecture. The build supports strong product imagery, customer testimonials, and email capture flows to drive engagement and repeat traffic.
         </p>
         <p>
-        When a player creates their own branch it is hosted live with MariaDb to allow
-          other players to play their story. With it being hosted on Heroku, the game has a bad
-          word filter to prevent any inappropriate content from being posted.
+        Key Contributions:
         </p>
-        <p>
-        </p>
+        <ul className="projectList">
+        <li>
+          Full front-end development and site structure
+        </li>
+        <li>
+          E-commerce integration and product catalog organization
+        </li>
+        <li>
+          Responsive, mobile-optimized design
+        </li>
+        <li>
+          UX focused on product discovery and conversion
+        </li>
+        </ul>
       </>
     ),
   },
   {
-    title: "GitFit",
-    imgSrc: "project-imgs/GitFit.png",
-    code: "https://github.com/akecs512/Git-Fit-Fitness-Tracker",
+    title: "Home High School Help",
+    imgSrc: "project-imgs/HomeHighSchoolHelp.webp",
+    code: "",
     projectLink: "https://enigmatic-garden-97881-5a06f2d72820.herokuapp.com/login",
-    tech: ["Node", "Express", "React", "GraphQl", "Mongoose", "Tailwind CSS"],
+    tech: ["Node", "Express", "React", "Tailwind CSS"],
     description:
-      "Introducuing GitFit, a fitness tracker that allows you to track your workouts and your progress.",
+      "Course Platform & Subscription System",
     modalContent: (
       <>
         <p>
-            This project was built with a team of 5 developers. Git-Fit was made with the thought of the user in mind.
+          I architected and developed HomeHighSchoolHelp.com, a digital education platform designed to deliver structured homeschool curriculum through a purchase- and subscription-based model. The site combines content marketing, product sales, and gated course delivery within a unified system.
         </p>
         <p>
-            Git-Fit allows the user to create a profile and track their workouts. The user can also view their progress on a graph that calculates which field of exercise they have done the most.
+        Beyond the public-facing website, I built a backend course management structure that dynamically ties curriculum data to user purchases and subscription levels. Course access is automatically controlled based on payment status, enabling secure content delivery, scalable enrollment, and recurring subscription management.
         </p>
         <p>
-          This database allows for creation of profiles, workouts, and exercises. The database is built with MongoDB and Mongoose.
+        The platform supports individual course purchases as well as bundled access models, with user authentication, gated lesson content, and structured curriculum progression. The architecture was designed to scale as new courses and educational products are added.
         </p>
         <p>
-          The frontend is built with React and Tailwind CSS. The backend is built with Node, Express, and GraphQl.  
+        Key Contributions:
         </p>
-        <p>
-          Future development I would like to pursue is adding a social aspect to the app where users can share their progress with other users and compete with each other.
-        </p>
+        <ul className="projectList">
+        <li>
+          Full website design and front-end development
+        </li>
+        <li>
+          Backend course data architecture tied to purchases and subscriptions
+        </li>
+        <li>
+          User authentication and gated content delivery
+        </li>
+        <li>
+          Subscription logic for recurring access control
+        </li>
+        <li>
+          Scalable course framework for future expansion
+        </li>
+        <li>
+          E-commerce integration with secure checkout
+        </li>
+        </ul>
       </>
     ),
   },
   {
-    title: "Select Materials (Work in Progress)",
-    imgSrc: "project-imgs/SelectMaterialsScreenshot.png",
+    title: "Select Materials",
+    imgSrc: "project-imgs/SelectMaterials.webp",
     code: "https://github.com/MrMcEvans/Select_Materials",
-    projectLink: "https://master--selectmaterialstx.netlify.app",
+    projectLink: "selectmaterials409.com",
     tech: ["React, Bootstrap, Node, Express"],
     description:
       "SEO optimized site for building materials business in Port Arthur, TX.",
     modalContent: (
       <>
         <p>
-        The site is built with a focus on SEO optimization to increase visibility and drive more traffic.
-         It's designed to rank well in search engines for building materials businesses in Port Arthur, TX.
+        I designed and developed SelectMaterials409.co, a streamlined business website for a regional construction materials supplier serving Southeast Texas. The site was built to establish credibility, clearly communicate services, and drive inbound quote requests from contractors and residential customers.
         </p>
         <p>
-        The site is built with React and Bootstrap.
+        The architecture focuses on clarity and speed — organizing material offerings, service areas, and contact pathways into a simple, conversion-driven layout. I implemented responsive design for field contractors accessing the site on mobile devices, along with structured service pages to improve search visibility and local SEO performance.
         </p>
         <p>
-        The site is hosted on Netlify, ensuring fast load times and high availability. It uses MariaDB and Sequelize for robust and efficient data handling.
+        The build supports scalable content updates, allowing the business to easily add new materials, service offerings, and project examples as operations expand.
         </p>
-        <p>
-        </p>
+        <ul className="projectList">
+          <li>
+            Full website design and development
+          </li>
+          <li>
+            Service-based content structure for local SEO
+          </li>
+          <li>
+            Mobile-first, contractor-friendly UX
+          </li>
+          <li>
+            Lead capture and quote request integration
+          </li>
+          <li>
+            Scalable framework for business growth
+          </li>
+        </ul>
       </>
     ),
   },
