@@ -2,7 +2,6 @@ import { StandardButton } from '@/components/buttons/StandardButton';
 import { Reveal } from '@/components/utils/Reveal';
 import styles from './header.module.scss';
 import Image from 'next/image';
-import Port from 'public/Port.jpg';
 
 export const Header = () => {
   return (
