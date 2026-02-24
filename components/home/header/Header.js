@@ -31,7 +31,7 @@ export const Header = () => {
           </p>
         </Reveal>
         <Reveal>
-      <Image
+      <img
         src="/Port.jpg"
         width={300}
         height={400}

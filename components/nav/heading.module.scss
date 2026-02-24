@@ -16,6 +16,9 @@
   font-weight: bold;
 
   @media (max-width: 768px) {
-    padding: 0 2.4rem;
+    padding: 0 4.4rem;
+    display: block;
+    position: relative;
+    left: 31px
   }
 }
