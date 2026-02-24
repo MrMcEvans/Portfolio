@@ -1,7 +1,7 @@
 .sideBar {
   background: var(--background-dark);
 
-  height: 110vh;
+  height: 100svh;
 
   position: sticky;
   top: 0px;
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: scroll;
+  // overflow-y: scroll;
 
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -79,7 +79,10 @@
   display: none;
 }
 
-@media screen and (max-width: 850px) {
-  .sidebar{
-    transform: scale(50%);}
-}
+// @media screen and (max-width: 850px) {
+//   .sideBar {
+//     transform: scale(0.5);
+//     transform-origin: top left;
+//   }
+// }
+.sideBar { z-index: 999; }
